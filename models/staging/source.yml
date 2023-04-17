@@ -3,13 +3,12 @@ version: 2
 
 sources:
   - name: staging
-    database: data-engineering-demo-375721
-    schema: dezoomcamp_de
+    database: root-engine-380817
+    schema: nyds
 
     tables:
-      - name: green_taxi_rides
-      - name: yellow_taxi_rides
-      - name: fvhridesnew
+      - name: rides
+     
 
 
 models:
